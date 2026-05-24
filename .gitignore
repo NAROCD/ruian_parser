@@ -1,0 +1,41 @@
+# Ignore build outputs
+bin/
+obj/
+publish/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings
+
+# Runtime and tooling
+*.runtimeconfig.json
+*.deps.json
+project.lock.json
+artifacts/
+
+# Logs, databases
+*.log
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.cache
+*.pid
